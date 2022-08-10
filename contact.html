@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+    <title>Web Studio - Contact</title>
+  </head>
+
+  <body>
+    <section class="wrapper_contact">
+      <div class="container">
+        <header class="header">
+          <a href="index.html" class="logo">
+            <img src="images/logo.svg" alt="Web Studio Logo" />
+          </a>
+          <nav class="navbar">
+            <ul>
+              <li>
+                <a href="index.html">home</a>
+              </li>
+              <li>
+                <a href="about.html">about</a>
+              </li>
+              <li>
+                <a class="active_link" href="contact.html">contact</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+        <div class="hero_about">
+          <h1>Contact Us</h1>
+        </div>
+      </div>
+    </section>
+
+    <main>
+      <section class="section_padding_contact">
+        <div class="container">
+          <div class="contact_form">
+            <form class="contact_submit_form">
+              <div class="form_item">
+                <label for="contact_name">Name</label>
+                <input type="text" maxlength="50" class="form_input" />
+              </div>
+              <div class="form_item">
+                <label for="contact_mail">E-mail</label>
+                <input type="email" maxlength="50" class="form_input" />
+              </div>
+              <div class="form_item">
+                <label for="contact_message">Message</label>
+                <textarea
+                  class="form_input" maxlength="500"
+                  name="contact_message"
+                  id="contact_message"
+                  rows="5"
+                ></textarea>
+              </div>
+              <div class="form_item">
+                <a href="#" class="btn" type="submit">Send</a>
+              </div>
+            </form>
+
+            <div class="contact_text">
+              <p>
+                Email:
+                <a href="mailto:webstudio@gmail.com" class="email_contact"
+                  >webstudio@gmail.com</a
+                >
+              </p>
+              <p>
+                Phone:
+                <a href="tel:+3802211197" class="phone_contact"
+                  >+38 (098)-112-34-57</a
+                >
+              </p>
+              <p>
+                Give us a call or drop by anytime, we endeavour to answer all
+                enquiries within 24 hours on business days.
+                <br />
+                We are open from 9am — 5pm week days.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer_row">
+          <small class="copyright_text"
+            >© 2022 Web Studio — All Rights Reserved</small
+          >
+          <ul class="footer_social">
+            <li>
+              <a href="https://facebook.com" target="_blank">
+                <img src="images/icons/facebook.svg" alt="WebDev on Facebook" />
+              </a>
+            </li>
+            <li>
+              <a href="https://instagram.com" target="_blank">
+                <img
+                  src="images/icons/instagram.svg"
+                  alt="WebDev on Instagram"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="https:youtube.com//" target="_blank">
+                <img src="images/icons/youtube.svg" alt="WebDev on Youtube" />
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com" target="_blank">
+                <img src="images/icons/twitter.svg" alt="WebDev on Twitter" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
